@@ -1091,6 +1091,8 @@ body.lightbox-open {
   border-radius: var(--radius);
   background: #fff;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+  touch-action: pan-y pinch-zoom;
+  user-select: none;
 }
 
 .lightbox__close {
