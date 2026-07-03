@@ -35,7 +35,6 @@ galleryButtons.forEach((button) => {
     if (button.dataset.default === "true") {
       galleryButtons.forEach((item) => item.classList.remove("is-active"));
       button.classList.add("is-active");
-      return;
     }
 
     openLightbox(imageSrc, caption);
